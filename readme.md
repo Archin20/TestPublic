@@ -5,7 +5,11 @@
 - composer self-update
 - composer instal(или composer update)
 - из файла .env.example создать .env
-
+## О проекте
+###Работают только с Node.js
+-webpack
+-grunt
+-gulp
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
