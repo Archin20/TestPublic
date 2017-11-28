@@ -1,3 +1,12 @@
+#Установка
+- cd domains
+- git clone https://github.com/Archin20/TestPublic.git
+- cd TestPublic
+- composer self-update
+- composer instal(или composer update)
+- из файла .env.example создать .env
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
