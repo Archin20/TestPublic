@@ -10,5 +10,11 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+//Route::get('/catalog/{id}','ProductController@getCatalog')
 
 Route::get('/','BaseController@getIndex');
+Route::get('/products','ProductController@getAll');
+Route::get('/product/{id}','ProductController@getOne');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
