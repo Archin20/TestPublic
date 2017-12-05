@@ -21,6 +21,7 @@
 					<img src="{{asset('/public/uploads/'.no_photo.jpg)}}"/>
 					@endif				
 				   {!!$product->body!!}
+				   {{$cat->catalogs->name}}
 				   </div>
 				   <hr /> 
                 </div>

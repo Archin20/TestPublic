@@ -11,7 +11,7 @@
 |
 */
 //Route::get('/catalog/{id}','ProductController@getCatalog')
-
+Route::get('/catalog/{id}','ProductController@getCat');
 Route::get('/','BaseController@getIndex');
 Route::get('/products','ProductController@getAll');
 Route::get('/product/{id}','ProductController@getOne');
