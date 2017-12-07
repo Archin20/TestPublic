@@ -18,3 +18,4 @@ Route::get('/product/{id}','ProductController@getOne');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::post('/home','HomeController@postIndex');
