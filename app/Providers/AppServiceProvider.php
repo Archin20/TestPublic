@@ -12,6 +12,14 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
+	 
+	public function compose(View $view){
+		$ur = url() ->full();
+		$arr = explode('/',$ur);
+		$end = end($arr);
+		$view ->with('end', $end);
+	}
+	
     public function boot()
     {
         View::composer('*','App\Providers\ViewComposers\SiteComposer');
